@@ -1,0 +1,25 @@
+/* 
+This sheet contains all properties that will reset the computed stylesheet
+of the browser
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    font-size: 13px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: $font;
+}
+
